@@ -13,12 +13,33 @@ This project is a modular, agent-based system that:
 - Agents are powered by LLMs, coordinated in a multi-agent pipeline, and built using structured Pydantic models.
 
 
+## Setup
+
+This project uses `uv` for dependency management. To set up the project:
+
+1. Install `uv` if you haven't already:
+   ```bash
+   pip install uv
+   ```
+
+2. Create a virtual environment and install dependencies:
+   ```bash
+   uv venv
+   source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
+   uv pip install -r requirements.txt
+   ```
+
+3. Run the application:
+   ```bash
+   python main.py
+   ```
+
 ##  🧩 Roadmap & Milestones
 ### ✅ 1. Article Fetch & Summarize: 
 Basic tool that pulls articles from RSS/Arxiv and summarizes them using an LLM.
 
 ### ✅ 2. Relevance Scoring Agent
-Add a relevance scoring step that ranks articles by a user’s interests.
+Add a relevance scoring step that ranks articles by a user's interests.
 
 ### ✅ 3. Multi-Agent Pipeline
 Split the processing into distinct agents:
