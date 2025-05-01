@@ -1,5 +1,4 @@
-arxiv>=2.2.0
-gradio>=5.28.0
-numpy>=2.2.5
-pandas>=2.2.3
-pydantic-ai>=0.1.8
+arxivscraper==0.1.0
+pydantic==2.6.1
+pandas==2.2.0
+gradio==4.19.2
